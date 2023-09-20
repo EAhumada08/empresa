@@ -6,8 +6,8 @@
     background-color: white; width: 200px; height: 100px; float: left; border: solid right;
 }
 #Nombre{
-  background: linear-gradient(to top left,black, red); width: 500px; height: 1px; float: 
-            left; text-align: center; font-size: 10; font-style: normal;
+  background: linear-gradient(to top left,black, white); width: 800px; height: 100px; float: 
+            left; text-align: center; font-size: 50; font-style: normal;
             
            
 }
@@ -22,10 +22,9 @@
     background-color: white; width: 700px; height: 50px; float:
                 left; text-align: center; font-size: 30;
 }*/
-
 .MenuPrincipal{
   overflow: hidden;
-background-color: red;
+background-color: orangered;
 border-radius: 30px;
 }
 
@@ -34,13 +33,13 @@ border-radius: 30px;
 font-size: 16px; 
 color: white; /*Aquí puedes cambiar el color de letra de los links sin subopciones (Home y News) */
 text-align: center;
-padding: 7px 8px;
+padding: 14px 16px;
 text-decoration: none;
 }
 
 
 nav{
-    /*float: both;*/ background-color: orangered; text-decoration: none;
+    float: both; background-color: orangered; text-decoration: none;
 }
 
 a{
@@ -51,13 +50,35 @@ aside{
     background-color:orange; width: 200px; height: 400px; float: left;
 }
 header{
-    width: 1000px; height: 50px;
+    width: 1000px; height: 100px;
 
 }
 section{
-    width: 8000px; height: 400px;
+    width: 900px; height: 400px;
 }
 
+#section_somos{
+  background-color: rgb(0, 0, 0); width: 800px; height: 400px; float: left; text-align: center;
+}
+#p_somos{
+  text-align: left;color:white;font-size: 30px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#section_ubi{
+  background-color: rgb(255, 255, 255); width: 800px; height: 400px; float: right; text-align: center;
+}
+
+#section_servicios{
+  background-color: rgb(255, 255, 255); width: 800px; height: 400px; float: right; text-align: left;
+}
+
+#NuevosLanzamientos{
+  width: 300px;height: 400px; float:left;
+}
+
+.secciones_catalogo{
+  width: 200px;height: 400px; float: left;
+}
 footer{
     background-color: black; color: white; width: 1000px; height: 100px; float: left;
 }

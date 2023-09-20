@@ -5,42 +5,49 @@
     <meta charset="UTF-8" />
 
     <title>Estructura o maqueta basica de una pagina web en html</title>
+    <link rel="stylesheet" href="empresa.css" type="text/css">
+    <link rel="stylesheet" href="menuDesplegable.css" type="text/css">
     <meta name="description" content="turismo valles">
     <meta name="keywords" content="cascadas, micos, xilitla, tamasopo, tirolesa">
 </head>
 
 <body>
-    <div id="contenedor" style="width: 1000px; height: 800px;">
-        <header style="width: 1000px; height: 150px;">
-            <div id="logo"
-                style="background-color: white; width: 200px; height: 150px; float: left; border: solid right;">
-                <img src="nike.jfif" width="192px" height="108px">
+    <div id="contenedor">
+        <header>
+            <div id="logo">
+                <img src="nike.jfif" width="96px" height="54px">
 
             </div>
-            <div id="Nombre" style="background-color: white; width: 800px; height: 100px; float: 
-            left; text-align: center; font-size: 50; font-style: normal;"> NIKE
-
-                <div id="Nombre" style="background-color: white; width: 800px; height: 50px; float:
-                left; text-align: center; font-size: 30;">"Just do it"
-
-                </div>
+            <div id="Nombre"> NIKE</div>
         </header>
 
-        <nav style="float: both; background-color: orangered; text-decoration: none;">
-            <a href="index.html" style="text-decoration: none; color: antiquewhite;">Inicio</a>
-            <a href="somos.html" style="text-decoration: none; color: antiquewhite;">Somos</a>
-            <a href="servicios.html" style="text-decoration: none; color: antiquewhite;">Servicios</a>
-            <a href="ubicacion.html" style="text-decoration: none; color: antiquewhite;">Ubicación</a>
-            <a href="video.html" style="text-decoration: none;color: antiquewhite;">Video</a>
+        <nav class="MenuPrincipal">
+            <a href="index.html" >Inicio</a>
+            <a href="somos.html" >Somos</a>
+            <a href="ubicacion.html">Ubicación</a>
+            <a href="video.html">Video</a>
+            <div class="menudesplegable">
+                <button class="menubtn">Catalogo
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                
+                <div class="menuCont">
+                    <a href="servicios.html">Servicios</a>
+                    <a href="#servicios">Ropa</a>
+                    <a href="#Calzado">Calzado</a>
+
+                </div>
+            </div>
+            
         </nav>
 
-        <aside style="background-color:orange; width: 200px; height: 400px; float: left;">
+        <aside>
             <p>Siguenos en nustras redes sociales:
             </p>
             <p> </p>
         </aside>
 
-        <section style="width: 800px; height: 400px; ;">
+        <section>
             <video width="400" controls>
                 <source src="How To LOOSELY Lace NIKE AIR JORDAN 1 LOW & On-Feet.mp4" type="video/mp4">
                 <source src="mov_bbb.ogg" type="video/ogg">
@@ -70,7 +77,7 @@
             </article>-->
         </section>
 
-        <footer style="background-color: black; color: white; width: 1000px; height: 100px; float: left;">
+        <footer>
             <p>Derechos reservados</p>
             <p>Contactenos en nike.com</p>
 
