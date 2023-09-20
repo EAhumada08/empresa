@@ -3,16 +3,16 @@
 }
 
 #logo{
-    background-color: white; width: 200px; height: 150px; float: left; border: solid right;
+    background-color: white; width: 200px; height: 100px; float: left; border: solid right;
 }
-#nombre{
-  background: linear-gradient(to top left,black, white); width: 800px; height: 100px; float: 
-            left; text-align: center; font-size: 50; font-style: normal;
+#Nombre{
+  background: linear-gradient(to top left,black, red); width: 500px; height: 1px; float: 
+            left; text-align: center; font-size: 10; font-style: normal;
             
            
 }
 
-#subnombre{
+/*#subnombre{
 
     border:2px solid #a1a1a1;
     padding:10px 40px; 
@@ -21,8 +21,22 @@
     border-radius:30px;
     background-color: white; width: 700px; height: 50px; float:
                 left; text-align: center; font-size: 30;
+}*/
+
+.MenuPrincipal{
+  overflow: hidden;
+background-color: red;
+border-radius: 30px;
 }
 
+.MenuPrincipal a{
+  float: left;
+font-size: 16px; 
+color: white; /*Aquí puedes cambiar el color de letra de los links sin subopciones (Home y News) */
+text-align: center;
+padding: 7px 8px;
+text-decoration: none;
+}
 
 
 nav{
@@ -37,7 +51,7 @@ aside{
     background-color:orange; width: 200px; height: 400px; float: left;
 }
 header{
-    width: 1000px; height: 150px;
+    width: 1000px; height: 50px;
 
 }
 section{

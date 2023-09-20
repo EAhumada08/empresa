@@ -1,16 +1,5 @@
-.MenuPrincipal{
-    overflow: hidden;
-  background-color: orangered;
-}
 
-.MenuPrincipal a{
-    float: left;
-  font-size: 16px; 
-  color: white; /*Aquí puedes cambiar el color de letra de los links sin subopciones (Home y News) */
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+
 .menudesplegable{
     float: left;
   overflow: hidden;
@@ -28,7 +17,7 @@
 }
 
 .MenuPrincipal a:hover, .menudesplegable:hover .menubtn {
-    background-color: red;
+    background-color:bisque;
   }
 
   .menuCont {
