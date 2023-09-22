@@ -4,6 +4,7 @@
 
 #logo{
     background-color: white; width: 200px; height: 100px; float: left; border: solid right;
+   
 }
 #Nombre{
   background: linear-gradient(to top left,black, white); width: 800px; height: 100px; float: 
@@ -55,6 +56,12 @@ header{
 }
 section{
     width: 900px; height: 400px;
+}
+
+#maps{
+
+  padding: 25px;
+  margin: 20px;
 }
 
 #section_somos{
